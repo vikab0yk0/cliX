@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allCommands = [];
     let currentCommand = {};
 
-    fetch('../data/commands.json')
+    fetch('/data/commands.json')
         .then(response => response.json())
         .then(data => {
             allCommands = [...data.windows, ...data.linux, ...data.git];

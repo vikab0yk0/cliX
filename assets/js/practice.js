@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentLevel = parseInt(localStorage.getItem('currentLevel')) || 1;
     const MAX_LEVEL = 30;
 
-    fetch('../data/lessons.json')
+    fetch('/data/lessons.json')
         .then(response => response.json())
         .then(data => {
             lessons = data.lessons;
