@@ -1,0 +1,158 @@
+{
+  "windows": [
+    {
+      "command": "dir",
+      "os": "Windows",
+      "explanation": "Displays a list of files and subdirectories in the current directory. It is useful for quick navigation and viewing folder contents."
+    },
+    {
+      "command": "cd C:\\Users",
+      "os": "Windows",
+      "explanation": "Change Directory. This command is used to switch the current working directory. You can use both absolute and relative paths."
+    },
+    {
+      "command": "ipconfig",
+      "os": "Windows",
+      "explanation": "Displays IP configuration details for all network adapters. This is essential for diagnosing network connection problems."
+    },
+    {
+      "command": "tasklist",
+      "os": "Windows",
+      "explanation": "Shows a list of all running processes on a local or remote machine, including their Process ID (PID)."
+    },
+    {
+      "command": "cls",
+      "os": "Windows",
+      "explanation": "Clear Screen. This command erases all content in the command prompt window, leaving only a clean prompt."
+    },
+    {
+      "command": "mkdir NewFolder",
+      "os": "Windows",
+      "explanation": "Make Directory. Creates a new directory (folder) named 'NewFolder' in the current location."
+    },
+    {
+      "command": "copy file.txt backup.txt",
+      "os": "Windows",
+      "explanation": "Copies one or more files to another location. In this example, it creates a copy of file.txt with the name backup.txt."
+    },
+    {
+      "command": "del temp.log",
+      "os": "Windows",
+      "explanation": "Delete. Deletes one or more files. This command should be used with caution as deleted files are not sent to the Recycle Bin."
+    },
+    {
+      "command": "systeminfo",
+      "os": "Windows",
+      "explanation": "Displays detailed configuration information about the computer and its operating system."
+    },
+    {
+      "command": "ping google.com",
+      "os": "Windows",
+      "explanation": "Sends ICMP echo requests to a specified host to check for network connectivity and measure round-trip time."
+    }
+  ],
+  "linux": [
+    {
+      "command": "ls -la",
+      "os": "Linux/macOS",
+      "explanation": "List. Lists files and directories in a long format (-l), including hidden files (-a). It shows permissions, owner, size, and modification date."
+    },
+    {
+      "command": "pwd",
+      "os": "Linux/macOS",
+      "explanation": "Print Working Directory. This command displays the full path of the current working directory."
+    },
+    {
+      "command": "grep 'error' log.txt",
+      "os": "Linux/macOS",
+      "explanation": "Searches for lines containing the word 'error' within the file log.txt. It is a powerful utility for searching text."
+    },
+    {
+      "command": "chmod 755 script.sh",
+      "os": "Linux/macOS",
+      "explanation": "Change Mode. Changes the access permissions of a file. In this case, '755' grants the owner full rights, while the group and others get read and execute rights."
+    },
+    {
+      "command": "sudo apt update",
+      "os": "Linux (Debian/Ubuntu)",
+      "explanation": "Superuser Do. Executes a command with superuser (administrator) privileges. 'apt update' refreshes the available package list."
+    },
+    {
+      "command": "touch newfile.txt",
+      "os": "Linux/macOS",
+      "explanation": "Creates a new, empty file with the specified name or updates the timestamp of an existing file without changing its content."
+    },
+    {
+      "command": "rm -rf old_stuff/",
+      "os": "Linux/macOS",
+      "explanation": "Remove. Recursively (-r) and forcefully (-f) deletes the 'old_stuff' directory and all its contents. This is a very dangerous command!"
+    },
+    {
+      "command": "df -h",
+      "os": "Linux/macOS",
+      "explanation": "Disk Free. Shows information about disk space usage on all mounted filesystems in a human-readable format (-h)."
+    },
+    {
+      "command": "ps aux",
+      "os": "Linux/macOS",
+      "explanation": "Process Status. Displays detailed information about all currently running processes on the system."
+    },
+    {
+      "command": "cat /etc/hosts",
+      "os": "Linux/macOS",
+      "explanation": "Concatenate. Displays the content of the /etc/hosts file in the terminal. It is commonly used for viewing text files."
+    }
+  ],
+  "git": [
+    {
+      "command": "git clone <url>",
+      "os": "Git",
+      "explanation": "Clones (creates a local copy of) a remote repository located at the specified URL."
+    },
+    {
+      "command": "git status",
+      "os": "Git",
+      "explanation": "Displays the state of the working directory and the staging area. It shows which changes have been staged, which haven't, and which files aren't tracked."
+    },
+    {
+      "command": "git add .",
+      "os": "Git",
+      "explanation": "Adds all current changes in the working directory to the staging area, preparing them for the next commit."
+    },
+    {
+      "command": "git commit -m \"My message\"",
+      "os": "Git",
+      "explanation": "Records the staged changes into the repository's history. The -m flag allows you to provide a brief commit message."
+    },
+    {
+      "command": "git push",
+      "os": "Git",
+      "explanation": "Uploads committed changes from your local repository to its corresponding remote repository."
+    },
+    {
+      "command": "git pull",
+      "os": "Git",
+      "explanation": "Fetches changes from a remote repository and automatically attempts to merge them into your current branch."
+    },
+    {
+      "command": "git branch new-feature",
+      "os": "Git",
+      "explanation": "Creates a new branch named 'new-feature' but does not switch the working directory to it."
+    },
+    {
+      "command": "git checkout main",
+      "os": "Git",
+      "explanation": "Switches the working directory to the specified branch (in this case, 'main')."
+    },
+    {
+      "command": "git merge feature-branch",
+      "os": "Git",
+      "explanation": "Merges the commit history from 'feature-branch' into the current active branch."
+    },
+    {
+      "command": "git log",
+      "os": "Git",
+      "explanation": "Shows the commit history for the current branch. It is very useful for reviewing the history of changes."
+    }
+  ]
+}

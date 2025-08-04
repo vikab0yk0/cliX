@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cliX - Practice Mode</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="header-buttons">
+                <span class="button red"></span>
+                <span class="button yellow"></span>
+                <span class="button green"></span>
+            </div>
+            <div class="header-title">
+                <a href="index.html" id="main-link">cliX - Practice Mode</a>
+            </div>
+            <button id="theme-switcher">theme</button>
+        </div>
+        <div id="output" class="terminal-output">
+            <div class="stats">
+                <span>Level: <span id="level">1</span></span>
+                <span>WPM: <span id="wpm">0</span></span>
+                <span>Accuracy: <span id="accuracy">100</span>%</span>
+                <span>Errors: <span id="errors">0</span></span>
+            </div>
+            <div id="lesson-text"></div>
+            <div class="typing-input-container">
+                <span class="prompt">></span>
+                <input type="text" id="typing-input" class="terminal-input" autofocus>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/practice.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
